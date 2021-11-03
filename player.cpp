@@ -1,6 +1,6 @@
 #include "player.hpp"
 #include "board.hpp"
-#include "card.hpp"
+//#include "card.hpp"
 #include <iostream>
 #include <vector>
 
@@ -33,7 +33,7 @@ void player::goFirst(){
             if(roll == 'r'){
                 playerRolls[i] = dice(); 
             }
-            else 
+          
         }
         
     }

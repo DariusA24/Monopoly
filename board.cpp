@@ -3,10 +3,8 @@
 #include <vector>
 
 //inheritance 
-class go : public board {
-    
-}; 
 
-void board::go(){
-    
-}
+// void board::go(int price, int rent, int location, bool owned){
+//     go.price = 
+// }
+
