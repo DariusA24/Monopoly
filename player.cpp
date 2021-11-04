@@ -9,8 +9,12 @@ player::player(int playerAmount){
 }
 
 int player::dice(){
-    return ((rand() % 12) + 1); 
+    int dice1 = ((rand() % 6) + 1); 
+    int dice2 = ((rand() % 6) + 1); 
+    std::cout<<"Dice 1: "<<dice1<< "Dice 2: "<<dice2<<"\n"<<"Total: "<<dice2 + dice1<<std::endl; 
+    return dice1 + dice2; 
 }
+
 
 void player::getName(){
     for(int i = 1; i <= playerAmount; i++){

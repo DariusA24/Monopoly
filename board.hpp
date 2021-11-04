@@ -19,5 +19,5 @@ class board{
     public:
         bool owned = false; 
         void board::go(int price, int rent, int location, bool owned); 
-        
+        board::board(int price, int rent, int location, bool owned); 
 };
