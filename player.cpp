@@ -3,6 +3,7 @@
 //#include "card.hpp"
 #include <iostream>
 #include <vector>
+#include <stdlib.h>
 
 player::player(int playerAmount){
     this->playerAmount = playerAmount;
